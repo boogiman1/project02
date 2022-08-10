@@ -1,0 +1,32 @@
+#header{width: 100%; text-align: center;}
+#header h1{width: 10%; }
+#header .inner{width: 80%; }
+#header div:last-child{width: 10%; }
+
+/* //#header{} */
+
+.contents1{width: 100%; height: auto;}
+.contents1 .swiper{width: 100%;}
+.contents1 .swiper .swiper-slide{width: 100%;}
+.contents1 .swiper .swiper-slide a{width: 100%;}
+.contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
+
+/* //.contents1 */
+
+.contents2{width: 100%; flex-direction: column; align-items: center; position: unset;}
+.contents2 .inner{width: 100%; height: 200px;}
+.contents2 .inner h2{font-size: 32px; text-align: center; margin: 30px 0; position: unset;}
+.contents2 .inner .stories{flex-direction: row; justify-content: space-evenly;}
+.contents2 .inner .stories div a{font-size: 16px;}
+.contents2 .bxslider_wrap{position: unset;}
+.menu_common{margin: 10px 0;}
+
+/* //.contents2 */
+
+.contents3{width: 100%; background-size: 12%; background-position: 10% 20%, 20% 50%, 40% 10%, 75% 30%; display: block;}
+.contents3 .inner{width: 100%; display: flex; flex-direction: column; justify-content: center;}
+.contents3 .inner h2{font-size: 32px;}
+.contents3 .inner div:nth-child(2){font-size: 16px;}
+.contents3 .inner .store{width: 100%; height: 50px;}
+.contents3 .inner .store .store_box{width: 50%; font-size: 14px; height: 150%; line-height: 3;}
+.contents3 .inner .store .store_box:hover{font-size: 14px; border-radius: 0; width: 50%; height: 50%; line-height: 3;}

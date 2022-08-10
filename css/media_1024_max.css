@@ -14,6 +14,5 @@
 /* //.contents1 */
 
 .contents2{width: 100%; }
-.contents2 .inner{width: 95%;}
-.contents2 .inner h2{width: 100%;}
+.contents2 .inner{max-width: 1312px; width: 100%;}
 .contents2 .bxslider_wrap{width: 100%; right: -50%; top: 30%;}

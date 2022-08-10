@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!--  -->
+    
+    <!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <!--  -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media_1024_max.css" media="screen and (min-width:1024px) and (max-width:100%)">
+    <link rel="stylesheet" href="css/media_768_1023.css" media="screen and (min-width:768px) and (max-width:1023px)">
+    <!-- 구글 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1>로고</h1>
+            <div class="inner">
+              <nav id="nav">
+                <div>네비</div>
+              </nav>
+            </div>
+            <div>로그인</div>
+        </header>
+        <div class="container contents1">
+           <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide main_swiper"><a href="javascript:;"><img src="img/456.png" alt=""></a></div>
+              <div class="swiper-slide"><a href="javascript:;"><img src="img/test01.png" alt=""></a></div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div class="container contents2">
+          <div class="inner">
+            <h2>MENU STROY</h2>
+            <div class="stories">
+              <div class="new_menu menu_common"><a href="javascript:;" class="menu_common">NEW MENU STORY</a></div>
+              <div class="coffee_menu menu_common"><a href="javascript:;" class="menu_common">COFFEE STORY</a></div>
+              <div class="dessert_menu menu_common"><a href="javascript:;" class="menu_common">DESSERT STORY</a></div>
+            </div>
+          </div>
+          <div class="bxslider_wrap">
+            <ul class="bxslider">
+              <li><a href=""><img src="img/menu_coffee1.png" /></a></li>
+              <li><a href=""><img src="img/menu_coffee2.jpg" /></a></li>
+              <li><a href=""><img src="img/menu_coffee3.png" /></a></li>
+              <li><a href=""><img src="img/menu_coffee4.jpg" /></a></li>
+           </ul>      
+           <div>as</div>
+          </div>
+        </div>
+        <div class="container contents3">
+          <div class="inner">
+            <h2>FRANCHISE</h2>
+            <div>당신의 창업 성공 스토리, <span>EDIYA</span>가 함께합니다.</div>
+            <div class="store">
+              <a href="">
+                <div>
+                  <div class="store_box">창업안내 바로가기</div>
+                </div>
+              </a>
+              <a href="">
+                <div>
+                  <div class="store_box">가맹점 상담 신청하기</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
+    <!-- jqury swiper -->
+    <script>
+      $(document).ready(function(){
+      $('.bxslider').bxSlider(
+          {
+          auto: true,
+          autoControls: true,
+          stopAutoOnClick: true,
+          pager: true,
+          slideWidth: 488,
+          }
+      );
+      });
+    </script>
+</body>
+</html>

@@ -1,9 +1,19 @@
-#header{}
+#header{width: 100%; text-align: center;}
+#header h1{width: 10%; }
+#header .inner{width: 80%; }
+#header div:last-child{width: 10%; }
 
 /* //#header{} */
 
-.contents1{width: 100%;}
+.contents1{width: 100%; height: auto;}
 .contents1 .swiper{width: 100%;}
 .contents1 .swiper .swiper-slide{width: 100%;}
 .contents1 .swiper .swiper-slide a{width: 100%;}
-.contents1 .swiper .swiper-slide a img{width: 100%;}
+.contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
+
+/* //.contents1 */
+
+.contents2{width: 100%; }
+.contents2 .inner{width: 95%;}
+.contents2 .inner h2{width: 100%; position: unset;}
+.contents2 .bxslider_wrap{width: 100%; right: -50%; top: 30%;}

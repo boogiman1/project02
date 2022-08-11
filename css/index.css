@@ -5,9 +5,18 @@
 /* .contents3{background-color: green;} */
 
 
-#header{display: flex; height: 100px; background-color: #062e6b; /* #243C84; */ color: #fff; justify-content: space-evenly; align-items: center; align-content: center; position: fixed; left: 0; right: 0; opacity: .7; z-index: 9999;}
-
+#header{display: flex; height: 100px; background-color: #062e6b; /* #243C84; */ justify-content: space-evenly; position: fixed; left: 0; right: 0; opacity: .7; z-index: 9999; overflow: hidden;}
+#header>h1{line-height: 100px;}
+#header>.login{line-height: 100px;}
+#header>h1 a{height: 100px;}
+#header>.login a{height: 100px;}
+#header a{color: #fff; display: block; box-sizing: border-box; width: 100px;}
 #header>.inner{margin: 0;}
+#header>.inner>nav>ul{display: flex; justify-content: space-evenly;}
+#header>.inner>nav>ul>li{line-height: 100px;position: relative;}
+#header>.inner>nav>ul>li>.one_depth{font-size: 18px; font-weight: 700; height: 100px;}
+#header>.inner>nav>ul>li>ul{position: absolute; width: 100%; left: 0;}
+#header>.inner>nav>ul>li>ul li .two_depth{line-height: 55px; height: 55px;}
 
 /* // #header */
 

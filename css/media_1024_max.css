@@ -5,11 +5,12 @@
 
 /* //#header{} */
 
-.contents1{width: 100%; height: auto;}
+.contents1{width: 100%;}
+.contents1 .swiper{width: 100%;}
 .contents1 .swiper{width: 100%;}
 .contents1 .swiper .swiper-slide{width: 100%;}
 .contents1 .swiper .swiper-slide a{width: 100%;}
-.contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
+.contents1 .swiper .swiper-slide a img{height: 100vh; width: 100%;}
 
 /* //.contents1 */
 

@@ -77,7 +77,7 @@
 .contents3 .inner>div:nth-child(2){text-align: center; word-break: keep-all; width: 250px; margin: 0 auto; font-size: 24px; font-weight: 700; letter-spacing: 1.4; line-height: 1.5;}
 .contents3 .inner div:nth-child(2) span{color: #A6B6E9;}
 .contents3 .inner .store{width: 800px; height: 262px; margin: 40px auto 0; display: flex; justify-content: space-evenly; align-items: center;}
-.contents3 .inner .store .store_box{width: 250px; height: 110px; border: 2px solid #050811; transition: all .8s; text-align: center; line-height: 110px; font-size: 22px; font-weight: 600; margin: 0 auto;}
-.contents3 .inner .store .store_box:hover{width: 250px; height: 250px; border-radius: 100%; background-color: #062e6b; color: #fff; border: none; line-height: 250px;}
+.contents3 .inner .store .store_box{width: 250px; height: 110px; border: 2px solid #050811; clip-path: circle(100%); transition: clip-path 1s; /* transition-property: height, clip-path, line-height; */ text-align: center; line-height: 110px; font-size: 22px; font-weight: 600; margin: 0 auto; }
+.contents3 .inner .store a:hover .store_box{width: 250px; height: 250px; border-radius: 100%; background-color: #062e6b; color: #fff; border: none; line-height: 250px; clip-path: circle(31%); font-size: 18px;}
 
 .contents3 .inner .store a{color: #050811;}

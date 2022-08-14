@@ -33,7 +33,7 @@
 <body>
     <div id="wrap">
         <header id="header">
-            <h1><a href="javascript:;">로고</a></h1>
+            <h1><a href="https://boogiman1.github.io/project02/"><img src="img/logo1.png" alt="이디야로고"></a></h1>
             <div class="inner">
               <nav id="nav">
                 <ul>
@@ -80,7 +80,11 @@
                 </ul>
               </nav>
             </div>
-            <div class="login"><a href="javascript:;">로그인</a></div>
+            <div class="login">
+              <a href="javascript:;"><img src="img/icon_join_black.png" alt="" class="black"><img src="img/icon_join_white.png" alt="" class="white"> <p>회원가입</p></a>
+              <a href="javascript:;"><img src="img/icon_login_black.png" alt="" class="black"><img src="img/icon_login_white.png" alt="" class="white"> <p>로그인</p></a>
+              <a href="javascript:;"><img src="img/icon_store_black.png" alt="" class="black"><img src="img/icon_store_white.png" alt="" class="white"> <p>가맹점</p></a>
+            </div>
         </header>
         <div class="container contents1" id="top">
            <!-- Swiper -->
@@ -88,7 +92,6 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a href="javascript:;"><img src="img/test01.png" alt=""></a></div>
               <div class="swiper-slide main_swiper"><a href="javascript:;"><img src="img/456.png" alt=""></a></div>
-              <div class="swiper-slide">Slide 3</div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -227,19 +230,6 @@
         </footer>
     </div>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-    
     <!-- jqury swiper -->
     <script>
       $(document).ready(function(){
@@ -254,6 +244,19 @@
       );
       });
     </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
 
     <!-- btn -->
     <script src="js/topbtn.js">

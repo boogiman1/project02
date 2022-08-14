@@ -94,10 +94,11 @@
 .contents3 .inner{display: flex; align-items: center; justify-content: flex-end; height: 100%; text-align: right;}
 .contents3 .inner h2{margin-top: 0; letter-spacing: 0;}
 .contents3 .inner div .gift_card_title .menu_common{line-height: 1.5; margin-bottom: 40px;}
-.contents3 .inner div .gift_card_title p{font-family: "Mark Pro";}
+.contents3 .inner div .gift_card_title>p{font-family: "Mark Pro";}
 .contents3 .inner div .gift_card_title p:nth-child(2){font-size: 20px; margin-bottom: 32px; color: #062e6b;}
 .contents3 .inner div .gift_card_title p:nth-child(3){font-size: 18px; margin-bottom: 55px; line-height: 1.5;}
-.contents3 .inner div .gift_card_title div>a{display: inline-block; color: #050811; font-size: 18px; width: 220px; height: 50px; border: 1px solid #050811; text-align: center; line-height: 52px; letter-spacing: 2px; font-weight: 500;}
+.contents3 .inner div .gift_card_title div>a{display: inline-block; color: #050811; font-size: 18px; width: 220px; height: 50px; border: 1px solid #050811; text-align: center; line-height: 52px;}
+.contents3 .inner div .gift_card_title div>a>p{letter-spacing: 2px;  font-weight: 500;}
 
 /* //contents3 */
 
@@ -106,21 +107,21 @@
 .contents4{ background-image: url(../img/members_intro_bg01.jpg); background-repeat: no-repeat; background-position: center center; background-attachment: fixed; background-size:  cover;}
 .contents4 .inner{display: flex; align-items: center; height: 100%;}
 .contents4 .inner div .members_title .menu_common{line-height: 1.5; margin-bottom: 40px;}
-.contents4 .inner div .members_title p{font-family: "Mark Pro";}
+.contents4 .inner div .members_title>p{font-family: "Mark Pro";}
 .contents4 .inner div .members_title p:nth-child(2){font-size: 20px; margin-bottom: 32px; color: #062e6b;}
 .contents4 .inner div .members_title p:nth-child(3){font-size: 18px; margin-bottom: 55px; line-height: 1.5;}
-.contents4 .inner div .members_title div>a{display: block; color: #050811; font-size: 18px; width: 220px; height: 50px; border: 1px solid #050811; text-align: center; line-height: 52px; letter-spacing: 2px; font-weight: 500;}
+.contents4 .inner div .members_title div>a{display: block; color: #050811; font-size: 18px; width: 220px; height: 50px; border: 1px solid #050811; text-align: center; line-height: 52px; }
+.contents4 .inner div .members_title div>a>p{letter-spacing: 2px; font-weight: 500;}
 /* //.contents4 */
 
 
-.contents5{display: flex; align-items: center; background-image: url(../img/interior_con_img.jpg), url(../img/interior_con_img2.jpg), url(../img/interior_con_img3.jpg), url(../img/interior_con_img4.jpg); background-repeat: no-repeat; background-position: 10% 20%, 20% 50%, 40% 90%, 75% 30%; background-color: #f9f9f9;}
+.contents5{display: flex; align-items: center; background-image: url(../img/interior_con_img.jpg), url(../img/interior_con_img2.jpg), url(../img/interior_con_img3.jpg), url(../img/interior_con_img4.jpg); background-repeat: no-repeat; background-position: 10% 7%, 22% 50%, 85% 90%, 77% 30%; background-color: #f9f9f9;}
 .contents5 .inner{height: 540px; }
 .contents5 .inner h2{margin: 70px 0 100px; text-align: center;}
 .contents5 .inner>div:nth-child(2){text-align: center; word-break: keep-all; width: 250px; margin: 0 auto; font-size: 24px; font-weight: 500; letter-spacing: 1.4; line-height: 1.5;}
 .contents5 .inner div:nth-child(2) span{color: #A6B6E9; font-family: "Mark Pro";}
 .contents5 .inner .store{width: 800px; height: 262px; margin: 0 auto; display: flex; justify-content: space-evenly; align-items: center;}
-.contents5 .inner .store .store_box{width: 250px; height: 110px; border: 2px solid #050811; clip-path: circle(100%); transition: clip-path 1s; /* transition-property: height, clip-path, line-height; */ text-align: center; line-height: 110px; font-size: 22px; font-weight: 600; margin: 0 auto; }
-.contents5 .inner .store a:hover .store_box{width: 250px; height: 250px; border-radius: 100%; background-color: #062e6b; color: #fff; border: none; line-height: 250px; clip-path: circle(31%); font-size: 18px;}
+.contents5 .inner .store .store_box{width: 200px; height: 80px; border: 2px solid #050811; text-align: center; line-height: 80px; font-size: 18px; font-weight: 500; margin: 0 auto; }
 .contents5 .inner .store a{color: #050811;}
 /* //contents5 */
 
@@ -167,4 +168,8 @@
 #top_button.visible{opacity: 1;}
 /* //#footer */
 
-
+/* hover 효과 */
+.effect{transition: all .2s; position: relative; overflow: hidden;}
+.effect:hover{transform: scale(1.2); color: #f2f2f2;}
+.effect::before{content: '';  position: absolute; width: 100%; height: 100%; background-color: #243c84;  left: -100%; z-index: -1; transition: all .2s;}
+.effect:hover::before{left: 0;}

@@ -1,6 +1,6 @@
 #header{width: 100%; text-align: center;}
 #header h1{width: 10%; }
-#header .inner{width: 80%; }
+#header .inner{width: 80%;}
 #header div:last-child{width: 10%; }
 
 /* //#header{} */
@@ -16,4 +16,4 @@
 
 .contents2{width: 100%; }
 .contents2 .inner{max-width: 1312px; width: 100%;}
-.contents2 .bxslider_wrap{width: 100%; right: -50%; top: 30%;}
+.contents2 .bxslider_wrap{width: 100%; right: -44%; top: 28%;}

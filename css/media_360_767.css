@@ -1,4 +1,4 @@
-#header{text-align: center; height: 4vh; pointer-events: none;}
+#header{text-align: center; height: 30px; pointer-events: none;}
 #header h1{ line-height: unset;}
 #header h1 a img{height:4vh;}
 #header .inner #nav{display: none;}
@@ -83,3 +83,7 @@
 #footer .inner .footer_bottom ul li a{font-size: 10px;}
 #footer .inner .footer_bottom p{font-size: 10px;}
 #footer .inner .footer_bottom p:last-child{font-size: 10px;}
+
+/* //#footer */
+
+#top_button{bottom: 1em; right: 1em;}

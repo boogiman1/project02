@@ -2,6 +2,7 @@
 .inner{max-width: 1312px; margin: 0 auto;}
 .h2_text{font-size: 96px; font-family: "Mark Pro"; letter-spacing: -5px; font-weight: 800; color: #050811; margin: 70px 0 60px; box-sizing: border-box;}
 .menu_common{font-size: 32px; font-family: "Mark Pro"; margin: 40px 0 28px 3px;}
+body{overflow-y: hidden; overflow-x: hidden;}
 /*  */
 #header h1{width: 10%; }
 #header .inner{width: 80%; }
@@ -11,7 +12,7 @@
 #header>h1{line-height: 100px; text-align: left;}
 #header>h1>a{width: 100px;}
 #header>h1>a img{height: 100px;}
-#header a{display: inline-block; box-sizing: border-box; color: #000000; font-weight: 500; font-size: 18px; transform: rotate(0.05deg);}
+#header a{display: inline-block; box-sizing: border-box; color: #050811; font-weight: 500; font-size: 18px; transform: rotate(0.05deg);}
 #header>.inner{margin: 0;}
 #header>.inner>nav>ul{display: flex; justify-content: space-evenly;}
 #header>.inner>nav>ul>li{position: relative;text-align: left;}
@@ -29,6 +30,7 @@
 #header .inner:hover +.login .black{display: none;}
 #header .inner:hover +.login .white{display: inline;}
 #header .inner:hover +.login a{color: #f2f2f2;}
+#header .login .mobile_menu{display: none;}
 
 /* // #header */
 
@@ -176,5 +178,5 @@
 /* hover 효과 */
 .effect{transition: all .2s; position: relative; overflow: hidden;}
 .effect:hover{transform: scale(1.1); color: #f2f2f2; box-shadow: 0 0 4px #222;}
-.effect::before{content: '';  position: absolute; width: 100%; height: 100%; background-color: #243c84;  left: -100%; z-index: -1; transition: all .2s;}
+.effect::before{content: '';  position: absolute; width: 100%; height: 100%; background-color: #243c84;  left: -100%; z-index: -1; transition: all .3s;}
 .effect:hover::before{left: 0;}

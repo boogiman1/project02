@@ -4,7 +4,7 @@
 #header a{font-size: 14px;}
 #header .login a:nth-child(2){display: none;}
 #header .login a:nth-child(3){display: none;}
-#header .login a p{font-size: 14px;}
+#header .login a p{font-size: 12px;}
 
 /* //#header{} */
 
@@ -14,14 +14,11 @@
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
-<<<<<<< HEAD
 .swiper-button-next>img{width: 26px; }
 
 .swiper-button-prev>img{width: 26px; }
 
 
-=======
->>>>>>> 239cbe8d7977f30896cfdfb44b76e1f0797fad4b
 /* //.contents1 */
 
 .contents2{width: 100%; justify-content: center;}

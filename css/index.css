@@ -25,7 +25,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header>.inner>nav>ul>li>ul li .two_depth:hover{color: #062e6b;}
 
 #header>.login{display: flex; justify-content: space-between; margin-top: 30px; line-height: 1.2;}
-#header>.login a{font-size: 14px; font-weight: 400; text-align: center;}
+#header>.login a{font-size: 12px; font-weight: 400; text-align: center;}
 .white{display: none;}
 #header .inner:hover +.login .black{display: none;}
 #header .inner:hover +.login .white{display: inline;}
@@ -128,18 +128,18 @@ body{overflow-y: hidden; overflow-x: hidden;}
 .contents5 .inner>div:nth-child(2){text-align: center; word-break: keep-all; width: 250px; margin: 0 auto; font-size: 24px; font-weight: 500; letter-spacing: 1.4; line-height: 1.5;}
 .contents5 .inner div:nth-child(2) span{color: #A6B6E9; font-family: "Mark Pro";}
 .contents5 .inner .store{width: 800px; height: 262px; margin: 0 auto; display: flex; justify-content: space-evenly; align-items: center;}
-.contents5 .inner .store .store_box{width: 210px; height: 70px; border: 1px solid #050811; text-align: center; line-height: 70px; font-size: 18px; font-weight: 500; margin: 0 auto; }
+.contents5 .inner .store .store_box{width: 210px; height: 60px; border: 1px solid #050811; text-align: center; line-height: 60px; font-size: 18px; font-weight: 500; margin: 0 auto;}
 .contents5 .inner .store a{color: #050811;}
 /* //contents5 */
 
 .contents6 .inner{display: flex; justify-content: space-between; align-items: center; height: 100vh;}
 .contents6 .inner > div{display: flex; flex-direction: column;}
-.contents6 .inner > div>div:nth-child(2){width: 406px; height: 100px; text-align: left; font-size: 32px; letter-spacing: -2px; ;}
+.contents6 .inner > div>div:nth-child(2){width: 406px; height: 100px; text-align: left; font-size: 24px; letter-spacing: -2px; ;}
 .contents6 .inner > div>div:nth-child(3){width: 406px; height: 100px; text-align: left; font-size: 32px; letter-spacing: -2px; display: none;}
 .contents6 .inner > div>div:nth-child(4){display: flex; justify-content: space-between; width: 406px; height: 100px; text-align: justify;}
-.contents6 .inner > div>div:nth-child(4) a{color: #050811; line-height: 1.3;}
+.contents6 .inner > div>div:nth-child(4) a{color: #050811; line-height: 1.5;}
 .contents6 .inner > div>div:nth-child(4) a .customer_title{font-size: 20px; padding: 8px 0;}
-.contents6 .inner > div>div:nth-child(4) a .customer_title+p{font-size: 16px; font-weight: 300;}
+.contents6 .inner > div>div:nth-child(4) a .customer_title+p{font-size: 14px; font-weight: 300;}
 
 .news{width: 50%; }
 .news > a:first-child{margin-top: 120px;}

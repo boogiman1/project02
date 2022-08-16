@@ -1,0 +1,9 @@
+/*  */
+
+#header{width: 100%; text-align: center; height: 70px;}
+#header a{font-size: 14px;}
+#header .login a:nth-child(2){display: none;}
+#header .login a:nth-child(3){display: none;}
+#header .login a p{font-size: 12px;}
+/* //#header */
+

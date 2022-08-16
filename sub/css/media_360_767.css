@@ -2,40 +2,23 @@
 .inner{width: 80%;}
 /*  */
 
-<<<<<<< HEAD
 #header{text-align: center; height: 50px;}
 header.on{height: auto !important;}
 #header h1{ line-height: unset;}
 #header h1 a img{height:50px;}
-=======
-#header{text-align: center; height: 30px;}
-header.on{height: auto !important;}
-#header h1{ line-height: unset;}
-#header h1 a img{height:30px;}
->>>>>>> 78913b817d5163692d4ed6efb37b4449ece665ad
 #header .inner #nav{pointer-events: none;}
 #header .inner #nav ul{flex-wrap: wrap;}
 #header .inner #nav ul li:first-child{display: none;}
 #header .inner #nav ul li{overflow: hidden; width: 49%; background-color: #f2f2f2; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
-<<<<<<< HEAD
 #header .inner #nav ul li:nth-child(2){margin-top: 50px;}
 #header .inner #nav ul li:nth-child(3){margin-top: 50px;}
-=======
-#header .inner #nav ul li:nth-child(2){margin-top: 30px;}
-#header .inner #nav ul li:nth-child(3){margin-top: 30px;}
->>>>>>> 78913b817d5163692d4ed6efb37b4449ece665ad
 #header .inner #nav>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #062e6b; line-height: 30px;}
 #header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(2){display: none;}
 #header .login a:nth-child(3){display: none;}
 #header .login {margin: 0; justify-content: flex-end}
-<<<<<<< HEAD
 #header .login .mobile_menu{display: flex; margin: 0; height: 50px;}
 #header .login .closePop{display: block; position: absolute; top: 51px; height: 30px; cursor: pointer;}
-=======
-#header .login .mobile_menu{display: flex; margin: 0; height: 30px;}
-#header .login .closePop{display: block; position: absolute; top: 31px; height: 20px; cursor: pointer;}
->>>>>>> 78913b817d5163692d4ed6efb37b4449ece665ad
 #header .login a p{font-size: 14px;}
 /* //#header */
 

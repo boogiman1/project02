@@ -17,3 +17,20 @@ $(function () {
     });
 
 })
+
+// 모바일 메뉴
+$(function () {
+
+    $('.mobile_menu').click(function (e) {
+        e.preventDefault();
+
+        $('header').addClass('on').slideDown('fast');
+    })
+    $('.closePop').click(function (e) {
+        e.preventDefault();
+        $('header header_cont').addClass('on').slideUp('fast');
+        $('header').removeClass('on')
+
+    })
+})
+

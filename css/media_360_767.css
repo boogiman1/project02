@@ -17,11 +17,14 @@
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
+<<<<<<< HEAD
 .swiper-button-next>img{width: 18px; }
 
 .swiper-button-prev>img{width: 18px; }
 
 
+=======
+>>>>>>> 239cbe8d7977f30896cfdfb44b76e1f0797fad4b
 /* //.contents1 */
 
 .contents2{width: 100%; flex-direction: column; align-items: center; position: unset; height: auto;}

@@ -18,7 +18,7 @@ header.on{height: auto !important;}
 #header .login a:nth-child(3){display: none;}
 #header .login {margin: 0; justify-content: flex-end}
 #header .login .mobile_menu{display: flex; margin: 0; height: 30px;}
-#header .login .closePop{display: block; position: absolute; top: 31px; height: 20px;}
+#header .login .closePop{display: block; position: absolute; top: 31px; height: 20px; cursor: pointer;}
 #header .login a p{font-size: 14px;}
 /* //#header */
 

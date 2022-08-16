@@ -1,5 +1,6 @@
 const btt=document.querySelector('#top_button')
 let scrollAmount;
+console.log(window)
 window.addEventListener('scroll',function(){
     scrollAmount=this.scrollY;
     if(scrollAmount>scrollAmount/7){

@@ -4,7 +4,7 @@
 #header a{font-size: 14px;}
 #header .login a:nth-child(2){display: none;}
 #header .login a:nth-child(3){display: none;}
-#header .login a p{font-size: 14px;}
+#header .login a p{font-size: 12px;}
 
 /* //#header{} */
 
@@ -13,6 +13,11 @@
 .contents1 .swiper .swiper-slide{width: 100%;}
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
+
+.swiper-button-next>img{width: 36px; }
+
+.swiper-button-prev>img{width: 36px; }
+
 
 /* //.contents1 */
 
@@ -73,3 +78,6 @@
 #footer .inner .footer_bottom ul li a{font-size: 12px;}
 #footer .inner .footer_bottom p{font-size: 12px;}
 #footer .inner .footer_bottom p:last-child{font-size: 12px;}
+
+/* //#footer */
+#top_button{bottom: 3em; right: 1em; width: 56px; height: 56px; line-height: 56px; font-size: 16px;}

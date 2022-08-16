@@ -131,7 +131,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 .contents5 .inner .store .store_box{width: 210px; height: 60px; border: 1px solid #050811; text-align: center; line-height: 60px; font-size: 18px; font-weight: 500; margin: 0 auto;}
 .contents5 .inner .store a{color: #050811;}
 /* //contents5 */
-.contents6{height: 100%;}
+.contents6{height: 100vh;}
 .contents6 .inner{display: flex; justify-content: space-between; align-items: center; height: 100%;}
 .contents6 .inner > div{display: flex; flex-direction: column;}
 .contents6 .inner > div>div:nth-child(2){width: 406px; height: 100px; text-align: left; font-size: 24px; letter-spacing: -2px; ;}

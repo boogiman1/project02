@@ -17,9 +17,6 @@
 
 #section2>.inner>div:first-child{padding: 38px 0; text-align: right;}
 .swiper-slide>a>img:nth-child(2){right: 25%;}
-.swiper-button-next>img{width: 28px; }
-.swiper-button-prev>img{width: 28px; }
-
 
 /* //#section2 */
 
@@ -48,4 +45,4 @@
 
 /* //#footer */
 
-#top_button{bottom: 3em; right: 1em; width: 56px; height: 56px; line-height: 56px; font-size: 16px;}
+#top_button{bottom: 3em; right: 1em; width: 44px; height: 44px; line-height: 44px; font-size: 14px;}

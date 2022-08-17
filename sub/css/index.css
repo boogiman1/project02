@@ -131,8 +131,8 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #footer dl dd{font-size: 14px; font-weight: 400; color: #777; line-height: 2; letter-spacing: 0;}
 #footer dl dt:nth-child(3){margin-top: 30px;}
 
-#footer{height: 50%; background-color: #222;}
-#footer .inner{height: 100%; display: flex; flex-direction: column; padding: 40px 0; box-sizing: border-box;}
+#footer{height: 50vh; background-color: #222;}
+#footer .inner{width: 100%; height: 100%; display: flex; flex-direction: column; padding: 40px 0; box-sizing: border-box;}
 #footer .inner .footer_top{display: flex; border-bottom: 1px solid #777; padding-bottom: 40px; box-sizing: border-box; height: 50%;}
 #footer .inner ul,#footer .inner dl{width: 100%;}
 #footer .inner .footer_bottom{padding-top: 40px; box-sizing: border-box;}

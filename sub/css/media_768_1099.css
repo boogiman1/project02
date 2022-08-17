@@ -3,8 +3,11 @@
 /*  */
 
 #header{width: 100%; text-align: center;}
-#header a{font-size: 14px;}
+#header > .inner > nav > ul > li > .one_depth{width: 85px;}
 #header>.inner>nav>ul>li>ul li .two_depth{font-size: 14px;}
+#header>.inner>nav>ul>li>ul li .two_depth::before{bottom:28%;}
+#header a{font-size: 14px;}
+#header .login{justify-content: flex-end; margin-right: 16px;}
 #header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(3){display: none;}
 #header .login a p{font-size: 12px;}

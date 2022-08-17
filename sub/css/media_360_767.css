@@ -57,6 +57,8 @@ header.on{height: auto !important;}
 #footer .inner{padding-right: 40px; padding-left: 40px;}
 .footer_top_menu{font-size: 16px;}
 #footer dl{display: none;}
+#footer .inner .footer_bottom ul{display: flex; flex-wrap: wrap;}
+#footer .inner .footer_bottom ul li{margin-right: 20px;}
 #footer .inner .footer_bottom ul li a{font-size: 10px;}
 #footer .inner .footer_bottom p{font-size: 10px;}
 #footer .inner .footer_bottom p:last-child{font-size: 10px;}

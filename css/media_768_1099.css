@@ -1,10 +1,16 @@
 /*  */
 
-#header{width: 100%; text-align: center; height: 70px;}
+#header{width: 100%; text-align: center; height: 100px;}
+#header > .inner > nav > ul > li > .one_depth{width: 85px;}
+#header>.inner>nav>ul>li>ul li .two_depth{font-size: 14px;}
+#header>.inner>nav>ul>li>ul li .two_depth::before{bottom:28%;}
 #header a{font-size: 14px;}
-#header .login a:nth-child(2){display: none;}
+#header .login{justify-content: flex-end; margin-right: 16px;}
+#header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(3){display: none;}
 #header .login a p{font-size: 12px;}
+
+#header+div{height: 100px;}
 
 /* //#header{} */
 
@@ -14,9 +20,9 @@
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
-.swiper-button-next>img{width: 26px; }
+.swiper-button-next>img{width: 36px; }
 
-.swiper-button-prev>img{width: 26px; }
+.swiper-button-prev>img{width: 36px; }
 
 
 /* //.contents1 */

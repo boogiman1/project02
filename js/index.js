@@ -2,7 +2,7 @@ $(function(){
     var firstmenu = $('#header>.inner>nav>ul>li'),
     header = $('#header'),
     headerHeight = header.height(),
-h1 = $('nav>ul>li:first>a'),
+    h1 = $('nav>ul>li:first>a'),
     h2 = $("nav>ul>li>a")
 fontColor = $('')
 firstmenu.mouseenter(function () {

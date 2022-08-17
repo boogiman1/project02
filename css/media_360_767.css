@@ -1,21 +1,26 @@
-#header{text-align: center; height: 30px;}
+#header{text-align: center; height: 50px; background-color: #243c84 !important;}
 header.on{height: auto !important;}
 #header h1{ line-height: unset;}
-#header h1 a img{height:30px;}
+#header h1 a img{height:50px;}
 #header .inner #nav{pointer-events: none;}
 #header .inner #nav ul{flex-wrap: wrap;}
 #header .inner #nav ul li:first-child{display: none;}
-#header .inner #nav ul li{overflow: hidden; width: 49%; background-color: #243c84; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
-#header .inner #nav ul li:nth-child(2){margin-top: 30px;}
-#header .inner #nav ul li:nth-child(3){margin-top: 30px;}
-#header .inner #nav>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #f2f2f2; line-height: 30px;}
+#header .inner #nav ul li{overflow: hidden; width: 49%; background-color: #f2f2f2; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
+#header .inner #nav ul li:nth-child(2){margin-top: 50px; pointer-events: all;}
+#header .inner #nav ul li:nth-child(3){margin-top: 50px;}
+#header .inner #nav>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #062e6b; line-height: 30px;}
 #header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(2){display: none;}
 #header .login a:nth-child(3){display: none;}
 #header .login {margin: 0; justify-content: flex-end}
-#header .login .mobile_menu{display: flex; margin: 0; height: 30px;}
-#header .login .closePop{display: block; position: absolute; top: 31px; height: 20px;}
+#header .login .mobile_menu{display: flex; margin: 0; height: 50px;}
+#header .login .closePop{display: block; position: absolute; top: 51px; height: 30px; cursor: pointer;}
 #header .login a p{font-size: 14px;}
+#header .inner #nav:hover ul>li>a{color: #062e6b !important;}
+
+/*  */
+
+#header+div{height: 50px;}
 
 /* //#header{} */
 
@@ -25,9 +30,9 @@ header.on{height: auto !important;}
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
-.swiper-button-next>img{width: 18px; }
+.swiper-button-next>img{width: 36px; }
 
-.swiper-button-prev>img{width: 18px; }
+.swiper-button-prev>img{width: 36px; }
 
 
 /* //.contents1 */

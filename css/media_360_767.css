@@ -2,13 +2,13 @@
 header.on{height: auto !important;}
 #header h1{ line-height: unset;}
 #header h1 a img{height:50px;}
-#header .inner #nav{pointer-events: none;}
-#header .inner #nav ul{flex-wrap: wrap;}
-#header .inner #nav ul li:first-child{display: none;}
-#header .inner #nav ul li{overflow: hidden; width: 49%; background-color: #f2f2f2; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
-#header .inner #nav ul li:nth-child(2){margin-top: 50px; pointer-events: all;}
-#header .inner #nav ul li:nth-child(3){margin-top: 50px;}
-#header .inner #nav>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #062e6b; line-height: 30px;}
+#header .inner{display: none;}
+#header .inner_M{width: 100%; display: block;}
+#header .inner_M #nav_M ul{display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+#header .inner_M #nav_M ul li{overflow: hidden; width: 49%; background-color: #f2f2f2; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
+#header .inner_M #nav_M ul li:nth-child(1){margin-top: 50px;}
+#header .inner_M #nav_M ul li:nth-child(2){margin-top: 50px;}
+#header .inner_M #nav_M>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #062e6b; line-height: 30px;}
 #header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(2){display: none;}
 #header .login a:nth-child(3){display: none;}

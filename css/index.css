@@ -6,6 +6,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 /*  */
 #header h1{width: 10%; }
 #header .inner{width: 80%; }
+#header .inner_M{display: none;}
 #header .login{width: 10%; }
 
 #header{display: flex; height: 100px; background-color: rgba(242, 242, 242, .4) !important;  justify-content: space-evenly; position: fixed; left: 0; right: 0; z-index: 9999; overflow: hidden;}

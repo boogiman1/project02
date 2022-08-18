@@ -2,13 +2,13 @@
 header.on{height: auto !important;}
 #header h1{ line-height: unset;}
 #header h1 a img{height:50px;}
-#header .inner #nav{pointer-events: none;}
-#header .inner #nav ul{flex-wrap: wrap;}
-#header .inner #nav ul li:first-child{display: none;}
-#header .inner #nav ul li{overflow: hidden; width: 49%; background-color: #f2f2f2; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
-#header .inner #nav ul li:nth-child(2){margin-top: 50px; pointer-events: all;}
-#header .inner #nav ul li:nth-child(3){margin-top: 50px;}
-#header .inner #nav>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #062e6b; line-height: 30px;}
+#header .inner{display: none;}
+#header .inner_M{width: 100%; display: block;}
+#header .inner_M #nav_M ul{display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+#header .inner_M #nav_M ul li{overflow: hidden; width: 49%; background-color: #f2f2f2; padding: 0 8px; box-sizing: border-box; margin-bottom: 2px;}
+#header .inner_M #nav_M ul li:nth-child(1){margin-top: 50px;}
+#header .inner_M #nav_M ul li:nth-child(2){margin-top: 50px;}
+#header .inner_M #nav_M>ul>li>a{font-size: 12px; text-align: center; height: 30px; text-align: left; color: #062e6b; line-height: 30px;}
 #header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(2){display: none;}
 #header .login a:nth-child(3){display: none;}
@@ -30,9 +30,9 @@ header.on{height: auto !important;}
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
-.swiper-button-next>img{width: 36px; }
+.swiper-button-next>img{width: 32px; }
 
-.swiper-button-prev>img{width: 36px; }
+.swiper-button-prev>img{width: 32px; }
 
 
 /* //.contents1 */
@@ -98,6 +98,8 @@ header.on{height: auto !important;}
 #footer .inner{padding-right: 40px; padding-left: 40px;}
 .footer_top_menu{font-size: 16px;}
 #footer dl{display: none;}
+#footer .inner .footer_bottom ul{display: flex; flex-wrap: wrap;}
+#footer .inner .footer_bottom ul li{margin-right: 20px;}
 #footer .inner .footer_bottom ul li a{font-size: 10px;}
 #footer .inner .footer_bottom p{font-size: 10px;}
 #footer .inner .footer_bottom p:last-child{font-size: 10px;}

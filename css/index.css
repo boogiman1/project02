@@ -6,6 +6,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 /*  */
 #header h1{width: 10%; }
 #header .inner{width: 80%; }
+#header .inner_M{display: none;}
 #header .login{width: 10%; }
 
 #header{display: flex; height: 100px; background-color: rgba(242, 242, 242, .4) !important;  justify-content: space-evenly; position: fixed; left: 0; right: 0; z-index: 9999; overflow: hidden;}
@@ -27,11 +28,15 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header>.login{display: flex; justify-content: space-between; margin-top: 30px; line-height: 1.2;}
 #header>.login a{font-size: 12px; font-weight: 400; text-align: center;}
 .white{display: none;}
-#header .inner:hover +.login .black{display: none;}
-#header .inner:hover +.login .white{display: inline;}
-#header .inner:hover +.login a{color: #f2f2f2;}
+#header .inner:hover ~.login .black{display: none;}
+#header .inner:hover ~.login .white{display: inline;}
+#header .inner:hover ~.login a{color: #f2f2f2;}
 #header .login .mobile_menu{display: none;}
 #header .login .closePop{display: none;}
+
+/*  */
+.overlay{position: absolute; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, .5); opacity: 0; transition: opacity 1s ease-in-out; z-index: 2;} /* ease-in-out : 가속도 */
+.overlay.show{opacity: 1;}
 
 /* // #header */
 
@@ -126,7 +131,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 .contents5{display: flex; align-items: center; background-image: url(../img/interior_con_img.jpg), url(../img/interior_con_img2.jpg), url(../img/interior_con_img3.jpg), url(../img/interior_con_img4.jpg); background-repeat: no-repeat; background-position: 10% 7%, 22% 50%, 85% 90%, 77% 30%; background-color: #f9f9f9;}
 .contents5 .inner{height: 540px; }
 .contents5 .inner h2{margin: 70px 0 100px; text-align: center;}
-.contents5 .inner>div:nth-child(2){text-align: center; word-break: keep-all; width: 250px; margin: 0 auto; font-size: 24px; font-weight: 500; letter-spacing: 1.4; line-height: 1.5;}
+.contents5 .inner>div:nth-child(2){text-align: center; word-break: keep-all; width: 250px; margin: 0 auto; font-size: 24px; font-weight: 500; line-height: 1.5;}
 .contents5 .inner div:nth-child(2) span{color: #A6B6E9; font-family: "Mark Pro";}
 .contents5 .inner .store{width: 800px; height: 262px; margin: 0 auto; display: flex; justify-content: space-evenly; align-items: center;}
 .contents5 .inner .store .store_box{width: 210px; height: 60px; border: 1px solid #050811; text-align: center; line-height: 60px; font-size: 18px; font-weight: 500; margin: 0 auto;}
@@ -173,7 +178,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #footer .inner .footer_bottom p{margin-bottom: 20px; color: #777; font-size: 14px; letter-spacing: 0;}
 #footer .inner .footer_bottom p:last-child{font-size: 12px;}
 
-#top_button{position: fixed; bottom: 3em; right: 3em; background-color:#062e6b; color: #f2f2f2; display: inline-block; width: 70px; height: 70px; border-radius: 100%; text-align: center; line-height: 70px; font-size: 18px; letter-spacing: 0; font-weight: 600; box-shadow:0 0 15px #222; transition: all .5s; opacity: 0;}
+#top_button{position: fixed; bottom: 3em; right: 3em; background-color:#062e6b; color: #f2f2f2; display: inline-block; width: 70px; height: 70px; border-radius: 100%; text-align: center; line-height: 70px; font-size: 18px; letter-spacing: 0; font-weight: 600; box-shadow:0 0 4px #222; transition: all .5s; opacity: 0;}
 #top_button:hover{background-color: #A6B6E9; color: #243c84;}
 #top_button.visible{opacity: 1;}
 /* //#footer */

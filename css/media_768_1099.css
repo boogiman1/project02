@@ -1,10 +1,16 @@
 /*  */
 
-#header{width: 100%; text-align: center; height: 70px;}
+#header{width: 100%; text-align: center; height: 100px;}
+#header > .inner > nav > ul > li > .one_depth{width: 85px;}
+#header>.inner>nav>ul>li>ul li .two_depth{font-size: 14px;}
+#header>.inner>nav>ul>li>ul li .two_depth::before{bottom:28%;}
 #header a{font-size: 14px;}
-#header .login a:nth-child(2){display: none;}
+#header .login{justify-content: flex-end; margin-right: 16px;}
+#header .login a:nth-child(1){display: none;}
 #header .login a:nth-child(3){display: none;}
 #header .login a p{font-size: 12px;}
+
+#header+div{height: 100px;}
 
 /* //#header{} */
 
@@ -51,7 +57,7 @@
 
 .contents5 .inner{width: 100%; letter-spacing: -5px;}
 .contents5 .inner h2{font-size: 40px; letter-spacing:0px;}
-.contents5 .inner >div{font-size: 20px; font-weight: "Mark Pro";}
+.contents5 .inner >div{font-size: 20px; font-weight: 400;}
 .contents5 .inner >div >.store>a{font-size: 16px; font-weight: 400;}
 
 /* //contents5 */

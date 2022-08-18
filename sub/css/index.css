@@ -6,6 +6,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 /*  */
 #header h1{width: 10%; }
 #header .inner{width: 80%; }
+#header .inner_M{display: none;}
 #header .login{width: 10%; }
 
 #header{display: flex; height: 100px; background-color: #243c84; justify-content: space-evenly; position: absolute; /*  position: fixed; */ left: 0; right: 0; z-index: 9999; overflow: hidden;}
@@ -24,17 +25,24 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header>.inner>nav>ul>li>ul li .two_depth:hover{color: #062e6b;}
 
 #header>.login{display: flex; justify-content: space-between; margin-top: 30px; line-height: 1.2;}
-#header>.login a{font-size: 14px; font-weight: 400; text-align: center; color: #f2f2f2;}
+#header>.login a{font-size: 12px; font-weight: 400; text-align: center; color: #f2f2f2;}
 .black{display: none;}
-#header .inner:hover +.login .black{display: none;}
-#header .inner:hover +.login .white{display: inline;}
-#header .inner:hover +.login a{color: #f2f2f2;}
+#header .inner:hover ~.login .black{display: none;}
+#header .inner:hover ~.login .white{display: inline;}
+#header .inner:hover ~.login a{color: #f2f2f2;}
 #header .login .mobile_menu{display: none;}
 #header .login .closePop{display: none;}
 
 /* //#header */
 
+/*  */
+
+.overlay{position: absolute; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, .5); opacity: 0; transition: opacity 1s ease-in-out;} /* ease-in-out : 가속도 */
+.overlay.show{opacity: 1;}
+
+
 #wrap>div:nth-child(2){height: 100px;}
+/*  */
 
 #section{background: url(../img/drink_visual.jpg) no-repeat; background-size: cover; background-position: 60%; }
 #section .inner{height: 460px;}
@@ -131,8 +139,8 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #footer dl dd{font-size: 14px; font-weight: 400; color: #777; line-height: 2; letter-spacing: 0;}
 #footer dl dt:nth-child(3){margin-top: 30px;}
 
-#footer{height: 50%; background-color: #222;}
-#footer .inner{height: 100%; display: flex; flex-direction: column; padding: 40px 0; box-sizing: border-box;}
+#footer{height: 50vh; background-color: #222;}
+#footer .inner{width: 100%; height: 100%; display: flex; flex-direction: column; padding: 40px 0; box-sizing: border-box;}
 #footer .inner .footer_top{display: flex; border-bottom: 1px solid #777; padding-bottom: 40px; box-sizing: border-box; height: 50%;}
 #footer .inner ul,#footer .inner dl{width: 100%;}
 #footer .inner .footer_bottom{padding-top: 40px; box-sizing: border-box;}
@@ -142,7 +150,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #footer .inner .footer_bottom p{margin-bottom: 20px; color: #777; font-size: 14px; letter-spacing: 0;}
 #footer .inner .footer_bottom p:last-child{font-size: 12px;}
 
-#top_button{position: fixed; bottom: 3em; right: 3em; background-color:#062e6b; color: #f2f2f2; display: inline-block; width: 70px; height: 70px; border-radius: 100%; text-align: center; line-height: 70px; font-size: 18px; letter-spacing: 0; font-weight: 600; box-shadow:0 0 15px #222; transition: all .5s; opacity: 0; z-index: 999999;}
+#top_button{position: fixed; bottom: 3em; right: 3em; background-color:#062e6b; color: #f2f2f2; display: inline-block; width: 70px; height: 70px; border-radius: 100%; text-align: center; line-height: 70px; font-size: 18px; letter-spacing: 0; font-weight: 600; box-shadow:0 0 4px #222; transition: all .5s; opacity: 0; z-index: 999999;}
 #top_button:hover{background-color: #A6B6E9; color: #243c84;}
 #top_button.visible{opacity: 1;}
 /* //#footer */

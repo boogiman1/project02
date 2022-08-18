@@ -35,8 +35,8 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header .login .closePop{display: none;}
 
 /*  */
-.overlay{position: absolute; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, .5); opacity: 0; transition: opacity 1s ease-in-out; z-index: 2;} /* ease-in-out : 가속도 */
-.overlay.show{opacity: 1;}
+.overlay{position: absolute; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, .5); opacity: 0; transition: opacity 1s ease-in-out; } 
+.overlay.show{opacity: 1; z-index: 2;}
 
 /* // #header */
 

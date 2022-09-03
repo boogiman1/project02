@@ -20,6 +20,10 @@
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
+.swiper-button-next{right: 20px;}
+.swiper-button-prev{left: 20px;}
+
+
 .swiper-button-next>img{width: 36px; }
 
 .swiper-button-prev>img{width: 36px; }

@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded',function(){
+    // header gnb sticky
+    var $header=document.querySelector('#header');
+    $headerOST=$header.offsetTop;
+    var win=window;
+    win.addEventListener('scroll',function(){
+        var $currentSCT=document.documentElement.scrollTop;
+        if($headerOST<$currentSCT){
+            $header.classList.add('sticky')
+        }else{
+            $header.classList.remove('sticky')
+        }
+    })
+    
+    // btn 만들기
     const btt=document.querySelector('#top_button')
     let scrollAmount;
     window.addEventListener('scroll',function(){

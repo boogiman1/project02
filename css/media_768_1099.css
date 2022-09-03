@@ -38,6 +38,7 @@
 
 .contents3{background-position: 50% center;}
 .contents3 .inner>div{margin-right: 4rem;}
+.contents3 .inner>div.on2{right: 64px; transition: all .8s;}
 .contents3 h2{font-size: 40px;}
 .contents3 .inner>div>.gift_card_title>.menu_common{font-size: 28px;}
 .contents3 .inner>div>.gift_card_title>p:nth-child(2){font-size: 18px;}
@@ -48,6 +49,7 @@
 
 .contents4{background-position: 54% 20%;}
 .contents4 .inner>div{margin-left: 4rem;}
+.contents4 .inner>div.on2{left: 65px; transition: all .8s;}
 .contents4 h2{font-size: 40px; letter-spacing:-1px;}
 .contents4 .inner>.members_title>.menu_common{font-size: 28px;}
 .contents4 .inner>div>.members_title>p:nth-child(2){font-size: 18px;}
@@ -59,6 +61,8 @@
 .contents5 .inner h2{font-size: 40px; letter-spacing:0px;}
 .contents5 .inner >div{font-size: 20px; font-weight: 400;}
 .contents5 .inner >div >.store>a{font-size: 16px; font-weight: 400;}
+.boxL.on{transition: all .8s; left:280px;}
+.boxR.on{transition: all .8s; right:280px;}
 
 /* //contents5 */
 

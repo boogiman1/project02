@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon meta -->
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="favicon//ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
     <title>이디야</title>
-    <link rel="stylesheet" href="css/reset.css" />
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!-- favicon -->
@@ -23,27 +26,28 @@
     <link rel="icon" type="image/png" sizes="96x96" href="favicon//favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png" />
     <link rel="manifest" href="favicon//manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="favicon//ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
     <!-- // favicon -->
+
+    <!-- 구글 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <!-- 영어 폰트 -->
+    <link href="http://fonts.cdnfonts.com/css/mark-pro" rel="stylesheet" />
+
+    <!--  -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/media_768_1099.css" media="screen and (min-width:768px) and (max-width:1099px)" />
+    <link rel="stylesheet" href="css/media_360_767.css" media="screen and (min-width:360px) and (max-width:767px)" />    
+    
     <!-- jQuery library (served from Google) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <!-- jquery 주소 복붙 -->
-    <script src="js/index.js"></script>
+    <script src="js/index_jq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index_js.js"></script>
     <!-- <script src="js/index1.js"></script> -->
-
-    <!--  -->
-
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/media_768_1099.css" media="screen and (min-width:768px) and (max-width:1099px)" />
-    <link rel="stylesheet" href="css/media_360_767.css" media="screen and (min-width:360px) and (max-width:767px)" />
-    <!-- 구글 폰트 -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
-    <!-- 영어 폰트 -->
-    <link href="http://fonts.cdnfonts.com/css/mark-pro" rel="stylesheet" />
   </head>
   <body>
     <div id="wrap">
@@ -143,6 +147,7 @@
           <div class="swiper-button-prev"><img src="img/button_left.png" alt="" /></div>
         </div>
       </div>
+      <!-- //.contents1 -->
       <div class="container contents2">
         <div>
           <div class="inner">
@@ -172,6 +177,7 @@
           </div>
         </div>
       </div>
+      <!-- //.contents2 -->
       <div class="container contents3">
         <div class="inner">
           <div>
@@ -192,6 +198,7 @@
           </div>
         </div>
       </div>
+      <!-- //.contents3 -->
       <div class="container contents4">
         <div class="inner">
           <div>
@@ -209,20 +216,22 @@
           </div>
         </div>
       </div>
+      <!-- //.contents4 -->
       <div class="container contents5">
         <div class="inner">
           <h2 class="h2_text">FRANCHISE</h2>
-          <div>당신의 창업 성공 스토리, <span>EDIYA</span>가 함께합니다.</div>
+          <div class="store_text">당신의 창업 성공 스토리, <span>EDIYA</span>가 함께합니다.</div>
           <div class="store">
             <a href="javascript:;">
-              <div class="store_box"><p class="effect">창업안내 바로가기</p></div>
+              <div class="store_box boxL"><p class="effect">창업안내 바로가기</p></div>
             </a>
             <a href="javascript:;">
-              <div class="store_box"><p class="effect">가맹점 상담 신청하기</p></div>
+              <div class="store_box boxR"><p class="effect">가맹점 상담 신청하기</p></div>
             </a>
           </div>
         </div>
       </div>
+      <!-- //.contents5 -->
       <div class="container contents6">
         <div class="inner">
           <div>
@@ -283,6 +292,7 @@
           </div>
         </div>
       </div>
+      <!-- //.contents6 -->
       <footer id="footer">
         <div class="inner">
           <div class="footer_top">
@@ -315,38 +325,5 @@
         <a href="#top" id="top_button">Top</a>
       </footer>
     </div>
-
-    <!-- jqury swiper -->
-    <script>
-      $(document).ready(function () {
-        $(".bxslider").bxSlider({
-          auto: true,
-          autoControls: true,
-          stopAutoOnClick: true,
-          pager: true,
-          slideWidth: 488,
-        });
-      });
-    </script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        loop: true,
-      });
-    </script>
-
-    <!-- btn -->
-    <script src="js/topbtn.js"></script>
   </body>
 </html>

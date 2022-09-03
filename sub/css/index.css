@@ -9,7 +9,10 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header .inner_M{display: none;}
 #header .login{width: 10%; }
 
-#header{display: flex; height: 100px; background-color: #243c84; justify-content: space-evenly; position: absolute; /*  position: fixed; */ left: 0; right: 0; z-index: 9999; overflow: hidden;}
+#header{display: flex; height: 100px; background-color: #062e6b; justify-content: space-evenly; position: absolute; left: 0; right: 0; z-index: 9999; overflow: hidden;}
+/* sticky */
+#header.sticky{position: fixed;}
+/*  */
 #header>h1{line-height: 100px; text-align: left;}
 #header>h1>a{width: 100px; color: #f2f2f2;}
 #header>h1>a img{height: 100px;}

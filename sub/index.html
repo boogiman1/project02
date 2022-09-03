@@ -45,17 +45,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <!-- jquery 주소 복붙 -->
-    <script src="js/index.js"></script>
+    <script src="js/index_jq.js"></script>
     <!-- swiper -->
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index_js.js"></script>
   
     
 </head>
 <body>
     <div id="wrap">
         <header id="header">
-            <h1 id="top"><a href="https://boogiman1.github.io/project02/"><img src="img/logo1.png" alt="이디야로고"></a></h1>
+            <h1><a href="https://boogiman1.github.io/project02/"><img src="img/logo1.png" alt="이디야로고"></a></h1>
             <div class="inner">
               <nav id="nav">
                 <ul>
@@ -121,7 +124,7 @@
 
             </div>
         </header>
-        <div></div>
+        <div id="top"></div>
         <div class="overlay"></div>
         <section id="section">
             <div class="inner" >
@@ -237,48 +240,7 @@
         </footer>
     </div>
     <!-- #section2 swiper -->
-     <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-     <!-- Initialize Swiper -->
-     <script>
-       var swiper = new Swiper(".mySwiper", {
-         slidesPerView: 3,
-         spaceBetween: 30,
-         slidesPerGroup: 3,
-         breakpoints:{
-          355:{
-            slidesPerView:1
-          },
-          768:{
-            slidesPerView:2,
-          },
-          1100:{
-            slidesPerView:3,
-          }
-         },
-         loop: true,
-         loopFillGroupWithBlank: true,
-         pagination: {
-           el: ".swiper-pagination",
-           clickable: true,
-         },
-         navigation: {
-           nextEl: ".swiper-button-next",
-           prevEl: ".swiper-button-prev",
-         },
-         autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        loop:true
-       });
-     </script>
-     <!-- //#section2 swiper -->
-         <!-- btn -->
-    <script src="js/topbtn.js">
-
-    </script>
 
 </body>
 </html>

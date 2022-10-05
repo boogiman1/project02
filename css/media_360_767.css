@@ -1,4 +1,4 @@
-#header{text-align: center; height: 50px; background-color: #243c84 !important;}
+#header{text-align: center; height: 50px; background-color: #062e6b !important;}
 header.on{height: auto !important;}
 #header h1{ line-height: unset;}
 #header h1 a img{height:50px;}
@@ -30,6 +30,9 @@ header.on{height: auto !important;}
 .contents1 .swiper .swiper-slide a{width: 100%;}
 .contents1 .swiper .swiper-slide a img{height: 100%; width: 100%;}
 
+.swiper-button-next{right:12px;}
+.swiper-button-prev{left: 12px;}
+
 .swiper-button-next>img{width: 32px; }
 
 .swiper-button-prev>img{width: 32px; }
@@ -50,6 +53,8 @@ header.on{height: auto !important;}
 
 .contents3{background: url(../img/members_intro_bg02_m.jpg) no-repeat; background-position: 50% center;}
 .container.contents3 .inner{text-align: center; justify-content: center;}
+.contents3 .inner>div{position: unset; opacity: 0;}
+.contents3 .inner>div.on3{opacity: 1; transition: all .8s; position: unset;}
 .contents3 h2{font-size: 32px; margin-bottom: 20px;}
 .contents3 .inner>div>.gift_card_title>.menu_common{font-size: 18px;}
 .contents3 .inner>div>.gift_card_title>.menu_common>br{display: none;}
@@ -61,6 +66,8 @@ header.on{height: auto !important;}
 
 .contents4{background-position:54% center; background: url(../img/members_intro_bg01_m.jpg) no-repeat; background-size: cover;}
 .contents4 .inner{text-align: center; justify-content: center; align-items: center;}
+.contents4 .inner>div{position: unset; opacity: 0;}
+.contents4 .inner>div.on3{opacity: 1; transition: all .8s; position: unset;}
 .contents4 h2{font-size: 32px; letter-spacing:-1px; margin-bottom: 20px; }
 .contents4 .inner>div>.members_title>.menu_common{font-size: 18px;}
 .contents4 .inner>div>.members_title>p:nth-child(2){display: none;}
@@ -75,8 +82,9 @@ header.on{height: auto !important;}
 .contents5 .inner div:nth-child(2){font-size: 16px;}
 .contents5 .inner .store{width: 100%; flex-direction: column; margin: 0; justify-content: flex-start;}
 .contents5 .inner .store a{width: 200px; font-size: 16px; height: 50px; margin: 20px 0;}
-.contents5 .inner .store a .store_box{font-size: 16px; height: 50px; line-height: 50px;}
-
+.contents5 .inner .store a .store_box{font-size: 16px; height: 50px; line-height: 50px; opacity: 0;}
+.boxL.on{position: unset; opacity: 1 !important;}
+.boxR.on{position: unset; opacity: 1 !important;}
 /* //.contents5 */
 
 .contents6 .inner{display: block;}

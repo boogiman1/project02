@@ -10,10 +10,13 @@ $(function () {
         $(this).find('ul').show();
         var submenuHeight=$(this).find('ul').height();
         header.stop().animate({height:submenuHeight+headerHeight}).css("background"," linear-gradient(#243c84 100px, rgba(242,242,242,.5) 51px, rgba(242,242,242,.5)")
+        $('.overlay').addClass('show')
+
     });
     firstmenu.mouseleave(function() {
         header.stop().animate({height:headerHeight})
-        $(this).fins('ul').hide();
+        $('.overlay').removeClass('show')
+        $(this).fins('ul').hide()
     });
 
 })
@@ -32,5 +35,6 @@ $(function () {
         $('header').removeClass('on')
 
     })
+
 })
 

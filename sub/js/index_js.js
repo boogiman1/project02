@@ -46,11 +46,7 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-<<<<<<< HEAD
     // 탑 버튼
-=======
-    // 버튼
->>>>>>> c5f6b7d4e09bda2360ecc09705a6e191631c34fd
     const btt=document.querySelector('#top_button')
     let scrollAmount;
     console.log(window)

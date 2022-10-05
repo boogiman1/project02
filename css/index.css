@@ -100,6 +100,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 .bxslider_wrap{display: flex; margin-top: 72px; justify-content: flex-end; margin-right: 20px;}
 .bxslider_wrap .bxslider{z-index: 0; border: none;}
 .bx-wrapper{border: none;}
+
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{display: none;}
 /* //아래 슬라이드 장 표시 */
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{display: none;}
@@ -188,7 +189,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #footer dl dd{font-size: 14px; font-weight: 400; color: #777; line-height: 2; letter-spacing: 0;}
 #footer dl dt:nth-child(3){margin-top: 30px;}
 
-#footer{height: 50vh; background-color: #222;}
+#footer{height: 63vh; background-color: #222;}
 #footer .inner{height: 100%; display: flex; flex-direction: column; padding: 40px 0; box-sizing: border-box;}
 #footer .inner .footer_top{display: flex; border-bottom: 1px solid #777; padding-bottom: 40px; box-sizing: border-box; height: 50%;}
 #footer .inner ul,#footer .inner dl{width: 100%;}

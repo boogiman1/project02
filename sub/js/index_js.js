@@ -46,7 +46,7 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-    // 버튼
+    // 탑 버튼
     const btt=document.querySelector('#top_button')
     let scrollAmount;
     console.log(window)

@@ -29,10 +29,6 @@ body{overflow-y: hidden; overflow-x: hidden;}
 
 #header>.login{display: flex; justify-content: space-between; margin-top: 30px; line-height: 1.2;}
 #header>.login a{font-size: 12px; font-weight: 400; text-align: center; color: #f2f2f2;}
-.black{display: none;}
-#header .inner:hover ~.login .black{display: none;}
-#header .inner:hover ~.login .white{display: inline;}
-#header .inner:hover ~.login a{color: #f2f2f2;}
 #header .login .mobile_menu{display: none;}
 #header .login .closePop{display: none;}
 

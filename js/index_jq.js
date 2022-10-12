@@ -14,16 +14,16 @@ firstmenu.mouseenter(function () {
     $(this).find('ul').show();
     var submenuHeight = $(this).find('ul').height();
     header.stop().animate({ height: submenuHeight + headerHeight }).css("background", " linear-gradient(#062e6b 100px, rgba(242,242,242,.5) 51px, rgba(242,242,242,.5)")
-    h2.css("color", "#f2f2f2")
+    // h2.css("color", "#f2f2f2")
     $('.overlay').addClass('show')
 });
 firstmenu.mouseleave(function () {
     header.stop().animate({ height: headerHeight })
-    header.css("background", "rgba(242, 242, 242, .4)")
-    h2.css("color", "#000")
-    h1.css("color", "#062e6b")
+    // header.css("background", "rgba(242, 242, 242, .4)")
+    // h2.css("color", "#000")
+    // h1.css("color", "#062e6b")
     $('.overlay').removeClass('show')
-    $(this).fins('ul').hide();
+    $(this).find('ul').hide();
 });
 })
 

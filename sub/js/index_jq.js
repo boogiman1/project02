@@ -16,7 +16,7 @@ $(function () {
     firstmenu.mouseleave(function() {
         header.stop().animate({height:headerHeight})
         $('.overlay').removeClass('show')
-        $(this).fins('ul').hide()
+        $(this).find('ul').hide()
     });
 
 })

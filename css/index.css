@@ -9,15 +9,10 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header .inner_M{display: none;}
 #header .login{width: 10%;}
 
-#header{display: flex; height: 100px; background-color: rgba(242, 242, 242, .4);  justify-content: space-evenly; position: absolute; left: 0; right: 0; z-index: 9999; overflow: hidden;}
+#header{display: flex; height: 100px; background-color: #062e6b; justify-content: space-evenly; position: absolute; left: 0; right: 0; z-index: 9999; overflow: hidden;}
 /* .sticky */
-#header.sticky{position: fixed; background-color: #062e6b !important;}
+#header.sticky{position: fixed;}
 
-#header.sticky>div.inner>#nav>ul>li>a{color: #f2f2f2 !important;}
-#header.sticky>.inner>nav>ul>li:first-child>.one_depth{color: #f2f2f2 !important;}
-#header.sticky .inner ~.login .black{display: none;}
-#header.sticky .inner ~.login .white{display: inline;}
-#header.sticky .inner ~.login a{color: #fff !important;}
 /*  */
 #header>h1{line-height: 100px; text-align: left;}
 #header>h1>a{width: 100px;}
@@ -26,8 +21,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header>.inner{margin: 0;}
 #header>.inner>nav>ul{display: flex; justify-content: space-evenly;}
 #header>.inner>nav>ul>li{position: relative;text-align: left;}
-#header>.inner>nav>ul>li:first-child>.one_depth{color: #062e6b;}
-#header>.inner>nav>ul>li>.one_depth{height: 100px; line-height: 100px; width: 120px;}
+#header>.inner>nav>ul>li>.one_depth{height: 100px; line-height: 100px; width: 120px;color: #f2f2f2;}
 #header>.inner>nav>ul>li>ul{position: absolute; width: 100%; left: 0;}
 #header>.inner>nav>ul>li>ul li .two_depth{display: inline-block; line-height: 55px; height: 55px; text-align: left; font-size: 16px; font-weight: 500; position: relative;}
 #header>.inner>nav>ul>li>ul li .two_depth::before{content: ''; position: absolute; display: block; width: 0; bottom: 27%; left: 50%; height: 2px; transform: translateX(-50%); transition: all .4s; background-color: #062e6b;}
@@ -35,11 +29,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 #header>.inner>nav>ul>li>ul li .two_depth:hover{color: #062e6b;}
 
 #header>.login{display: flex; justify-content: space-between; margin-top: 30px; line-height: 1.2;}
-#header>.login a{font-size: 12px; font-weight: 400; text-align: center;}
-.white{display: none;}
-#header .inner:hover ~.login .black{display: none;}
-#header .inner:hover ~.login .white{display: inline;}
-#header .inner:hover ~.login a{color: #f2f2f2;}
+#header>.login a{font-size: 12px; font-weight: 400; text-align: center;color: #f2f2f2;}
 #header .login .mobile_menu{display: none;}
 #header .login .closePop{display: none;}
 
@@ -100,6 +90,7 @@ body{overflow-y: hidden; overflow-x: hidden;}
 .bxslider_wrap{display: flex; margin-top: 72px; justify-content: flex-end; margin-right: 20px;}
 .bxslider_wrap .bxslider{z-index: 0; border: none;}
 .bx-wrapper{border: none;}
+
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{display: none;}
 /* //아래 슬라이드 장 표시 */
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{display: none;}

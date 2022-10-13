@@ -39,6 +39,8 @@ body{overflow-y: hidden; overflow-x: hidden;}
 
 /* // #header */
 
+.contents1{height: unset;}
+
 /* swiper 추가 */
 .swiper {
   width: 100%;
